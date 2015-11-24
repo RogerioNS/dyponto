@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Diretório do dia
+ddd=$(date +%Y-%m-%d)
+
+mkdir ${ddd}
+
+vim ${ddd}/index.rst
